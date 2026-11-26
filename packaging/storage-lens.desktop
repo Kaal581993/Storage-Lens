@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Storage Lens
+GenericName=Laptop Storage Cleaner
+Comment=Inspect caches, incomplete downloads, large files and installed applications
+Exec="/home/kaal/storage-lens/launch.sh"
+Icon=/home/kaal/storage-lens/packaging/storage-lens.png
+Terminal=false
+Categories=Utility;FileTools;
+Keywords=storage;disk;cache;cleaner;downloads;uninstall;
+StartupNotify=true
+StartupWMClass=dev-kaal-storagelens-StorageLens
+Actions=Widget;
+
+[Desktop Action Widget]
+Name=Open toolbar widget
+Exec="/home/kaal/storage-lens/launch.sh" --widget

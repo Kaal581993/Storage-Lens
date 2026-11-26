@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Storage Lens Widget
+GenericName=Storage Toolbar
+Comment=Show free space and open reviewed cache and Docker cleanup
+Exec="/home/kaal/storage-lens/launch.sh" --widget
+Icon=/home/kaal/storage-lens/packaging/storage-lens.png
+Terminal=false
+Categories=Utility;FileTools;
+Keywords=storage;disk;cache;docker;widget;toolbar;
+StartupNotify=false
+StartupWMClass=dev-kaal-storagelens-StorageLens
